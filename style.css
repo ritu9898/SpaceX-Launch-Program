@@ -1,0 +1,40 @@
+*{
+    padding: 1vw;
+    margin: 1vw;
+}
+
+.main{
+    height: 50vw;
+    width: 50vw;
+    background-color: thistle;
+}
+
+.img-div{
+    height: 150px;
+    width: 150px;
+    background-color: silver;
+}
+
+.h4{
+    color: steelblue;
+    font-size: small;
+}
+
+.text{
+    font-size: small;
+}
+
+.card-style{
+    padding-left: 1vw;
+}
+
+.year{
+    border-radius: 20px;
+    margin: 1vw;
+}
+
+@media screen and (max-width: 800px) {
+    .year{
+        background-color: violet;
+    }
+}

@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <!-- <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link href="style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+   
+</head>
+<body>
+    <div class="container main">
+       <h1>
+           SpaceX Launch Programs
+       </h1>
+
+       <div class="container-fluid">
+           <section class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <h5 class="card-header">Filters</h5>
+                        <div class="card-body">
+                          <p class="card-text">Launch Year</p><hr />
+                          <div class="row">
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2006">2006</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2007">2007</button>
+                            </div>
+                          </div>
+                           
+                          <div class="row">
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2008">2008</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2009">2009</button>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2010">2010</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2011">2011</button>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2012">2012</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2013">2013</button>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2014">2014</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2015">2015</button>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2016">2016</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2017">2017</button>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2018">2018</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2019">2019</button>
+                            </div>
+                          </div>
+
+                          <div class="row">
+                            <div class="col-md-6">
+                                <button class="bg-success year" id="2020">2020</button>
+                            </div>
+                          
+                          </div><br />
+
+                          <!-- Successful Launch -->
+                          <p class="card-text center">Successful Launch</p><hr />
+                          <div class="row">
+                            <div class="col-md-6" >
+                                <button class="bg-success successLaunch" id="trueId">True</button>  
+                            </div> 
+                            <div class="col-md-6">
+                                <button class="bg-success successLaunch" id="falseId">False</button>  
+                            </div>
+                          </div>  <br />
+
+                           <!-- Successful Landing -->
+                           <p class="card-text">Successful Landing</p><hr />
+                           <div class="row">
+                             <div class="col-md-6">
+                                <button class="bg-success successLanding" id="successTrue">True</button>  
+                             </div>
+                             <div class="col-md-6">
+                                <button class="bg-success successLanding" id="successFalse">False</button>  
+                             </div>
+                           </div>  
+
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row" id="ans">
+                        
+                    </div>
+                    
+                </div>
+                
+           </section>
+       </div>
+    </div>
+</body>
+</html>
